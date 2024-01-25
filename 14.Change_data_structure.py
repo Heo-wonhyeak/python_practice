@@ -1,17 +1,17 @@
 # 자료구조의 변경
 
 # 커피숍
-# menu = {"커피", "우유", "주스"}
-# print(menu, type(menu)) # {'커피', '우유', '주스'} <class 'set'>
+menu = {"커피", "우유", "주스"}
+print(menu, type(menu)) # {'커피', '우유', '주스'} <class 'set'>
 
-# menu = list(menu)
-# print(menu, type(menu)) # ['주스', '커피', '우유'] <class 'list'>
+menu = list(menu)
+print(menu, type(menu)) # ['주스', '커피', '우유'] <class 'list'>
 
-# menu = tuple(menu)
-# print(menu, type(menu)) # ('커피', '우유', '주스') <class 'tuple'>
+menu = tuple(menu)
+print(menu, type(menu)) # ('커피', '우유', '주스') <class 'tuple'>
 
-# menu = set(menu)
-# print(menu, type(menu)) # {'주스', '커피', '우유'} <class 'set'>
+menu = set(menu)
+print(menu, type(menu)) # {'주스', '커피', '우유'} <class 'set'>
 
 '''
     Quiz) 당신의 학교에서는 파이썬 코딩 대회를 주최합니다.
@@ -34,18 +34,18 @@
 from random import *
 
 # case 1
-# id = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
-# shuffle(id)
-# print(id)
-# chicken = id[0]
-# print(chicken)
-# coffee = id[1:4]
-# print(coffee)
+id = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+shuffle(id)
+print(id)
+chicken = id[0]
+print(chicken)
+coffee = id[1:4]
+print(coffee)
 
-# print("-- 당첨자 발표 --\n치킨 당첨자 : {0}\n커피 당첨자 : {1}\n-- 축하합니다 --".format(chicken,coffee))
+print("-- 당첨자 발표 --\n치킨 당첨자 : {0}\n커피 당첨자 : {1}\n-- 축하합니다 --".format(chicken,coffee))
 
 # case 2
-# id = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+id = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 id = range(1, 21) # 1~20 까지의 숫자를 생성
 id = list(id) # 레인지를 리스트로 변경 
 shuffle(id)

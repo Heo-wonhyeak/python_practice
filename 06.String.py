@@ -1,14 +1,14 @@
-# sentence = '나는 소년입니다.'
-# print(sentence)
+sentence = '나는 소년입니다.'
+print(sentence)
 
-# sentence2 = "python은 쉬워요"
-# print(sentence2)
+sentence2 = "python은 쉬워요"
+print(sentence2)
 
-# sentence3 = """
-# 난 소년이고,
-# 파이썬은 쉬워요
-# """
-# print(sentence3)
+sentence3 = """
+난 소년이고,
+파이썬은 쉬워요
+"""
+print(sentence3)
 
 # 슬라이싱(substring)
 jumin = "940219-1234567"

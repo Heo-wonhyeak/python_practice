@@ -1,26 +1,26 @@
 # 지역변수 : 함수 내에서만 호출 가능
 # 전역변수 : 프로그램내에서 어디서든 호출 가능 
 
-# gun = 10
+gun = 10
 
-# def checkpoint(soldiers): # 경계근무
-#     # gun = 20 # 지역 변수 
-#     global gun # 전역 공간에 있는 gun 사용하겠다는 의미 
-#     # 하지만 일반적으로는 변수로 받아서 사용함 
-#     gun = gun - soldiers # 경계 근무 나간 군인의 숫자
-#     print("[함수 내] 남은 총 : {0}".format(gun))
+def checkpoint(soldiers): # 경계근무
+    # gun = 20 # 지역 변수 
+    global gun # 전역 공간에 있는 gun 사용하겠다는 의미 
+    # 하지만 일반적으로는 변수로 받아서 사용함 
+    gun = gun - soldiers # 경계 근무 나간 군인의 숫자
+    print("[함수 내] 남은 총 : {0}".format(gun))
 
-# def checkpoint_ret(gun, soldiers):
-#     gun = gun - soldiers # 여기서 는 함수내 지역 변수임
-#     print("[함수 내] 남은 총 : {0}".format(gun))
-#     return gun # 이렇게 바깥쪽으로 return 해줘야 바깥에서 사용가능 
+def checkpoint_ret(gun, soldiers):
+    gun = gun - soldiers # 여기서 는 함수내 지역 변수임
+    print("[함수 내] 남은 총 : {0}".format(gun))
+    return gun # 이렇게 바깥쪽으로 return 해줘야 바깥에서 사용가능 
 
-# print("[전역]전체 총 : {0}".format(gun))
-# checkpoint(2)
-# print("[전역]남은 총 : {0}".format(gun))
+print("[전역]전체 총 : {0}".format(gun))
+checkpoint(2)
+print("[전역]남은 총 : {0}".format(gun))
 
-# gun = checkpoint_ret(gun,4)
-# print("[전역]남은 총 : {0}".format(gun))
+gun = checkpoint_ret(gun,4)
+print("[전역]남은 총 : {0}".format(gun))
 
 '''
     Quiz) 표준 체중을 구하는 프로그램을 작성하시오

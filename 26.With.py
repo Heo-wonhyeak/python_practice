@@ -1,16 +1,16 @@
 # With 
 
-# import pickle
+import pickle
 
-# with open("profile.pickle", "rb") as profile_file: # profile_file이란 변수에 profile.pickle 을 불러오고
-#     print(pickle.load(profile_file)) # 출력함 
+with open("profile.pickle", "rb") as profile_file: # profile_file이란 변수에 profile.pickle 을 불러오고
+    print(pickle.load(profile_file)) # 출력함 
 # with를 사용할 경우 close()를 해주지 않아도 됨
     
-# with open("study.txt", "w", encoding="utf8") as study_file:
-#     study_file.write("Python을 열심히 공부하고 있어요")
+with open("study.txt", "w", encoding="utf8") as study_file:
+    study_file.write("Python을 열심히 공부하고 있어요")
 
-# with open("study.txt", "r", encoding="utf8") as study_file:
-#     print(study_file.read())
+with open("study.txt", "r", encoding="utf8") as study_file:
+    print(study_file.read())
 
 '''
     Quiz) 당신의 회사에서는 매주 1회 작성해야 하는 보고서가 있습니다.

@@ -1,32 +1,32 @@
-# print(abs(-5)) # 5 절대값을 반환해줌 
-# print(pow(4, 3)) # 64 '승'의 의미 4^3 = 64
-# print(max(5, 12)) # 12 최댓값
-# print(min(5, 12)) # 5 최솟값
-# print(round(3.14)) # 3 반올림
-# print(round(4.56)) # 5 
+print(abs(-5)) # 5 절대값을 반환해줌 
+print(pow(4, 3)) # 64 '승'의 의미 4^3 = 64
+print(max(5, 12)) # 12 최댓값
+print(min(5, 12)) # 5 최솟값
+print(round(3.14)) # 3 반올림
+print(round(4.56)) # 5 
 
 # math 라이브러리 안에 있는 모든 것을 이용하겠다는 의미
-# from math import * 
-# print(floor(4.99)) # 4 내림
-# print(ceil(3.01)) # 4 올림
-# print(sqrt(16)) # 4 제곱근 출력
+from math import * 
+print(floor(4.99)) # 4 내림
+print(ceil(3.01)) # 4 올림
+print(sqrt(16)) # 4 제곱근 출력
 
 # Random 라이브러리
-# from random import *
-# print(random()) # 0.0이상 1.0 미만의 임의의 값 생성
-# print(random()*10) # 0.0이상 10.0 미만의 임의의 값 생성
-# print(int(random()*10)) # 0.0이상 10.0 미만의 임의의 정수 생성
-# print(int(random()*10) + 1) # 1이상 10 이하의 임의의 정수 생성
+from random import *
+print(random()) # 0.0이상 1.0 미만의 임의의 값 생성
+print(random()*10) # 0.0이상 10.0 미만의 임의의 값 생성
+print(int(random()*10)) # 0.0이상 10.0 미만의 임의의 정수 생성
+print(int(random()*10) + 1) # 1이상 10 이하의 임의의 정수 생성
 # 로또 값 출력
-# print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
-# print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
-# print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
-# print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
-# print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
-# print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
+print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
+print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
+print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
+print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
+print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
+print(int(random()*45) + 1) # 1이상 45 이하의 임의의 정수 생성
 
-# print(randrange(1,46)) # 1이상 46 미만의 임의의 정수 생성
-# print(randint(1,45)) # 1이상 45 이하의 임의의 정수 생성
+print(randrange(1,46)) # 1이상 46 미만의 임의의 정수 생성
+print(randint(1,45)) # 1이상 45 이하의 임의의 정수 생성
 
 '''
     Quiz) 당신은 최근에 코딩 스터디 모임을 새로 만들었습니다.
